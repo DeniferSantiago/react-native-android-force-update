@@ -11,11 +11,10 @@ npm install react-native-android-force-update
 ## Usage
 
 ```js
-import { multiply } from "react-native-android-force-update";
+import { checkUpdate } from "react-native-android-force-update";
 
 // ...
-
-const result = await multiply(3, 7);
+checkUpdate();
 ```
 
 ## Contributing
