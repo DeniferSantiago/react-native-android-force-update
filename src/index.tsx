@@ -17,6 +17,6 @@ const AndroidForceUpdate = NativeModules.AndroidForceUpdate
       }
     );
 
-export function multiply(a: number, b: number): Promise<number> {
-  return AndroidForceUpdate.multiply(a, b);
+export function checkUpdate(): void {
+  if (Platform.OS === 'android') AndroidForceUpdate.checkUpdate();
 }
