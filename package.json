@@ -1,6 +1,6 @@
 {
   "name": "react-native-android-force-update",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Forced update for android",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
